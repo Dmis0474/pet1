@@ -1,0 +1,26 @@
+
+.horoscopePages{
+    background: url("../../assets/back-for-body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh
+}
+
+.header{
+    margin-top: 0;
+}
+
+.signsList{
+    list-style-type: none;
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.sign {
+    width: 130px;
+  height: 161.25px;
+}

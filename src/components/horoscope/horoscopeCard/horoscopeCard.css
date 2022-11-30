@@ -1,0 +1,79 @@
+.aries {
+  background: url("../../../assets/aries-card_background.jpg");
+}
+
+.taurus {
+  background: url("../../../assets/taurus-card_background.jpg");
+}
+
+.gemini {
+  background: url("../../../assets/gemini-card_background.jpg");
+}
+
+.cancer {
+  background: url("../../../assets/cancer-card_background.jpg");
+}
+
+.leo {
+  background: url("../../../assets/leo-card_background.jpg");
+}
+
+.virgo {
+  background: url("../../../assets/virgo-card_background.jpg");
+}
+
+.libra {
+  background: url("../../../assets/libra-card_background.jpg");
+}
+
+.scorpio {
+  background: url("../../../assets/scorpio-card_background.jpg");
+}
+
+.sagittarius {
+  background: url("../../../assets/sagittarius-card_background.jpg");
+}
+
+.capricorn {
+  background: url("../../../assets/capricorn-card_background.jpg");
+}
+
+.aquarius {
+  background: url("../../../assets/aquarius-card_background.jpg");
+}
+
+.pisces {
+  background: url("../../../assets/pisces-card_background.jpg");
+}
+
+.card {
+  width: 130px;
+  height: 161.25px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 6px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+}
+
+.header{}
+.info{
+  
+  margin-top: 70px;
+  font-size: 9px;
+  color: yellow;
+
+}
+
+/* aries: 'aries',
+taurus: 'taurus',
+gemini: 'gemini',
+cancer: 'cancer',
+leo: 'leo',
+virgo: 'virgo',
+libra: 'libra',
+scorpio: 'scorpio',
+sagittarius: 'sagittarius',
+capricorn: 'capricorn',
+aquarius: 'aquarius',
+pisces: 'pisces' */
