@@ -1,0 +1,103 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
+    margin: 5px 0px;
+    overflow:hidden;
+    overflow-x: hidden;
+    background: rgb(181, 183, 186);
+    padding: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.menuButton {
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    background-color: rgb(121, 124, 128);
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menuButton:hover {
+    box-shadow: 0 14px 28px rgba(11, 14, 208, 0.25), 0 10px 10px rgba(11, 14, 208, 0.25);
+}
+.home{
+    background-image: url('../../assets/menu/home-back.png');   
+}
+.education {
+    background-image: url('../../assets/menu/education-back.png');   
+}
+.search{
+    background-image: url('../../assets/menu/search-back.png');   
+}
+.blog{
+    background-image: url('../../assets/menu/blog-back.png');  
+}
+.profile{
+    background-image: url('../../assets/menu/profile-back.png'); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.horoscopePages{
+    background: url("../../assets/back-for-body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh
+}
+
+.header{
+    margin-top: 0;
+}
+
+.signsList{
+    list-style-type: none;
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.sign {
+    width: 130px;
+  height: 161.25px;
+} */
