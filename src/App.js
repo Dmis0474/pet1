@@ -1,17 +1,20 @@
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import Horoscope from './components/horoscope/horoscope'
-import Menu from './components/menu/menu';
-import './App.css';
 import MainPage from './components/mainPage/mainPage';
-import Header from './components/header/header';
+import './App.css';
+import Layout from './components/layout/layout';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <Header />
-      <MainPage />
-      <Menu />
-      {/* <Horoscope /> */}
+      <Layout />
+      <Routes>
+        <Route path="/mainPage" element={<MainPage/>}/>
+        <Route path="/horoscope" element={<Horoscope/>}/>
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

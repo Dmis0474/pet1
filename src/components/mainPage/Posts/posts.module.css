@@ -1,0 +1,71 @@
+.postContainer{
+    height: 800px;
+    overflow-y: scroll; 
+    margin: 10px auto; 
+    
+}
+.post{
+    box-shadow: 0 14px 28px rgba(75, 74, 74, 0.25), 0 10px 10px rgba(75, 74, 74, 0.25);
+}
+.postsPictures{
+    width: 200px;
+    grid-area: A;
+}
+.firstSmallPicture{
+    width: 100px;
+    grid-area: B;
+}
+.secondSmallPicture{
+    width: 100px;
+    grid-area: C;
+}
+.imgWrapper{
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+     "A B"
+     "A C" ;               
+}
+
+.postButtons {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 10px 20px auto;
+}
+
+.postButton{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background-color: rgb(173, 177, 183);
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.postButton:hover {
+    box-shadow: 0 14px 28px rgba(188, 147, 13, 0.25), 0 10px 10px rgba(188, 147, 13, 0.25);
+}
+
+.likes{
+    background-image: url('../../../assets/postButtons/postButtons-like.png');   
+}
+.comment{
+    background-image: url('../../../assets/postButtons/postButtons-comment.png');   
+}
+.retweet{
+    background-image: url('../../../assets/postButtons/postButtons-retweet.png');   
+}
+.share{
+    background-image: url('../../../assets/postButtons/postButtons-share.png');   
+}
+
+
+
+
+
