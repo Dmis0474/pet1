@@ -3,12 +3,17 @@
     background: url("../../assets/back-for-body.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    min-height: 100vh
+}
+.wrapper{
+    height: 800px;
+    overflow-y: scroll; 
+    margin: 10px auto; 
 }
 
 .header{
+    padding-top: 40px;
     margin-top: 0;
+    color: aliceblue;
 }
 
 .signsList{
@@ -22,5 +27,5 @@
 
 .sign {
     width: 130px;
-  height: 161.25px;
+    height: 161.25px;
 }

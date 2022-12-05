@@ -1,0 +1,44 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(226, 229, 232);
+  box-shadow: 0 14px 28px rgba(75, 74, 74, 0.25),
+    0 10px 10px rgba(75, 74, 74, 0.25);
+    padding: 10px;
+}
+
+.moveUp{
+    transform: translate(-50%,-300px);
+    transition: all 0.5s ease-in-out;
+}
+
+.moveDown{
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.input{
+    background-image: url("../../assets/searchPAge/inputSearch.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-width: 290px;
+    min-height: 30px;
+}
+.buttons{
+    margin: 15px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button{
+    min-height: 30px;
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    font-size: 16px;
+}

@@ -9,10 +9,10 @@ function Menu(props) {
   return (
     <div className={styles.menu}>
       <Link to="/mainPage"><button className={`${styles.menuButton} ${styles.home}`}></button></Link>
-      <button className={`${styles.menuButton} ${styles.education}`}></button>
-      <Link to="/horoscope"><button className={`${styles.menuButton} ${styles.search}`}></button></Link>
-      <button className={`${styles.menuButton} ${styles.blog}`}></button>
-      <button className={`${styles.menuButton} ${styles.profile}`}></button>
+      <Link to="/education"><button className={`${styles.menuButton} ${styles.education}`}></button></Link>
+      <Link to="/searchPage"><button className={`${styles.menuButton} ${styles.search}`}></button></Link>
+      <Link to="/blog"><button className={`${styles.menuButton} ${styles.blog}`}></button></Link>
+      <Link to="/profile"><button className={`${styles.menuButton} ${styles.profile}`}></button></Link>
     </div>
   );
 }

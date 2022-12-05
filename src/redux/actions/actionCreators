@@ -1,0 +1,10 @@
+import actionNames from "../actions/actionNames";
+
+export const handleSubmit = (text) => {
+  return (dispatch) => {
+    return dispatch({
+      type: actionNames.ADD,
+      text: text,
+    });
+  };
+};
