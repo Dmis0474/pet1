@@ -1,3 +1,148 @@
 .blog {
-    margin-top: 40px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nickWrapper {
+  margin-top: 20px;
+  padding: 3px 5px 3px 10px;
+  border-radius: 5px;
+  background-color: rgb(180, 180, 180);
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 1px solid black;
+}
+.nick {
+  margin: 0;
+  font-size: 14px;
+  padding-right: 25px;
+  background-image: url("../../assets/blog/46_pencile.png");
+  background-size: 19px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ava {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.audience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.audienceCount {
+  margin: 0;
+  background: rgb(226, 229, 232);
+  padding: 3px;
+  box-shadow: 0 14px 28px rgba(75, 74, 74, 0.25),
+    0 10px 10px rgba(75, 74, 74, 0.25);
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+.about {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description {
+  background: rgb(226, 229, 232);
+  padding: 3px;
+  box-shadow: 0 14px 28px rgba(75, 74, 74, 0.25),
+    0 10px 10px rgba(75, 74, 74, 0.25);
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 12px;
+  max-width: 50%;
+}
+
+.descriptionName {
+  text-align: left;
+  padding: 5px 10px;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.descriptionText {
+  text-align: left;
+  padding: 5px;
+  margin: 0;
+}
+
+.networks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.networkItemWrapper {
+  box-shadow: 0 14px 28px rgba(75, 74, 74, 0.25),
+    0 10px 10px rgba(75, 74, 74, 0.25);
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 12px;
+  padding: 2px;
+  width: 95%;
+}
+
+.networkItem {
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.ig {
+  background-image: url(../../assets/socialNetworksIcons/inst.png);
+}
+
+.tg {
+  background-image: url(../../assets/socialNetworksIcons/tg.png);
+}
+
+.tw {
+  background-image: url(../../assets/socialNetworksIcons/twit.png);
+}
+
+.wp {
+  background-image: url(../../assets/socialNetworksIcons/whats.png);
+}
+
+.timeline{
+    margin-top: 15px;
+}
+
+.addPostBlock{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.blogList{
+    overflow-y: scroll; 
+    margin: 10px auto; 
+    height: 250px;
+}
+
+.blogPost {
+    border-bottom: 1px solid black;
+}
+
+.postWrapper {
+    display:flex;
 }
