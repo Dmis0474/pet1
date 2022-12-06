@@ -2,11 +2,34 @@
     margin-top: 50px;
 }
 
+.avaWrapper{
+    position: relative;
+}
+
 .ava{
     border-radius: 50%;
     border: 5px solid grey;
     box-shadow: 0 14px 28px rgba(75, 74, 74, 0.25),
     0 10px 10px rgba(75, 74, 74, 0.25);
+}
+
+.avaEdit{
+    position: absolute;
+    bottom:10%;
+    right: 20%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 14px 28px rgba(64, 61, 65, 0.25), 0 10px 10px  rgba(58, 55, 58, 0.25);
+    background-image: url(../../assets/blog/46_pencile.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.avaEdit:hover {
+    box-shadow: 0 14px 28px rgba(151, 24, 160, 0.25), 0 10px 10px  rgba(151, 24, 160, 0.25);
 }
 
 .name{
@@ -15,7 +38,6 @@
 }
 
 .profileItems{
-    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -31,4 +53,45 @@
     cursor: pointer;
     box-shadow: 0 4px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     padding: 10px 30px; 
+    background-size: 30px;
+    background-position: 85% ;
+    background-repeat: no-repeat;
+    text-align: start;
+}
+
+.profileItem:hover {
+    box-shadow: 0 14px 28px rgba(151, 24, 160, 0.25), 0 10px 10px  rgba(151, 24, 160, 0.25);
+}
+
+
+.friends{
+    background-image: url('../../assets/Profile/friends.png');
+}
+
+.allPosts{
+    background-image: url('../../assets/Profile/allPosts.png');
+}
+
+.savePosts{
+    background-image: url('../../assets/Profile/savePosts.png');  
+}
+
+.editProfile{
+    background-image: url('../../assets/Profile/editProfile.png');  
+}
+
+.editApp{
+    background-image: url('../../assets/Profile/editApp.png');   
+}
+
+.horoscope{
+    background-image: url('../../assets/Profile/horoscope.png');    
+}
+
+.calendar{
+    background-image: url('../../assets/Profile/calendar.png');    
+}
+
+.else{
+    background-image: url('../../assets/Profile/else.png');      
 }

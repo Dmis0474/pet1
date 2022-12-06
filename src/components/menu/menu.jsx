@@ -13,6 +13,7 @@ function Menu(props) {
       <Link to="/searchPage"><button className={`${styles.menuButton} ${styles.search}`}></button></Link>
       <Link to="/blog"><button className={`${styles.menuButton} ${styles.blog}`}></button></Link>
       <Link to="/profile"><button className={`${styles.menuButton} ${styles.profile}`}></button></Link>
+      
     </div>
   );
 }

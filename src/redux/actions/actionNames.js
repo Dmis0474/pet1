@@ -1,4 +1,5 @@
 const actionNames = {
+    FILL:"FILL",
     ADD:"ADD",
     DELETE:"DELETE",
     DONE:"DONE",

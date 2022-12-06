@@ -1,0 +1,7 @@
+.layout{
+    z-index: 1;
+}
+
+.menu, .header{
+    z-index: 2;
+}

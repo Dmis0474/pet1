@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./form.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import handleSubmit from "../../../redux/actions/actionCreators"
+import {handleSubmit} from "../../../redux/actions/actionCreators"
 
 const Form = (props) => {
 
@@ -16,16 +16,18 @@ const Form = (props) => {
     console.log(newPostText)
   }
 
-  const addPost = (event) => {
+  const addPost = (newPostText, event) => {
     event.preventDefault();
-    dispatch(handleSubmit (newPostText, event))
+    dispatch(handleSubmit(newPostText, event))
     setNewPostText('')
   }
+
+
 
   return (
     
     <div >
-     <form className={styles.mainPageForm} onSubmit={(event) => addPost(event)}>
+     <form className={styles.mainPageForm} onSubmit={(event) => addPost(newPostText, event)}>
         <input value={newPostText} className={styles.formInput} onChange={(e)=>postListener(e)} placeholder="Впишите новый пост..."></input>
         <button >add</button>
      </form>

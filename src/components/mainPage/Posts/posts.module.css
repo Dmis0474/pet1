@@ -22,9 +22,9 @@
 .imgWrapper{
     display: grid;
     justify-content: center;
-    grid-template-areas:
+    /* grid-template-areas:
      "A B"
-     "A C" ;               
+     "A C" ;                */
 }
 
 .postButtons {
