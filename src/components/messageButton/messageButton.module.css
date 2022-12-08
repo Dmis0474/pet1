@@ -1,0 +1,27 @@
+.menuButton{
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    width:55px;
+    height:55px;
+    border-radius: 30%;
+    background-color: rgb(47, 48, 49);
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    background-image: url("../../assets/menu/letter.png");
+}
+
+.menuButton:after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 6, 6);
+    position: absolute;
+    left: 40px;
+    border-radius: 50%;
+    bottom: 40px;
+}

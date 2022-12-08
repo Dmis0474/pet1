@@ -1,0 +1,25 @@
+const matrices = [
+  [1, 2, 3, 4],
+  [3, 1, 4, 2],
+  [4, 3, 2, 1],
+  [2, 4, 1, 3],
+];
+
+function countDifferentMatrices(matrices) {
+  let count = 0;
+  let totalCount = 0;
+
+  for (let j = 0; j <= matrices.length; i++) {
+    for (let i = 1; i <= matrices[0].length; i++) {
+      console.log(matrices[0]);
+      matrices[0].unshift(
+        matrices[0][2],
+        matrices[0][0],
+        matrices[0][3],
+        matrices[0][1]
+      );
+      matrices[0].length = 4;
+    }
+  }
+}
+countDifferentMatrices(matrices);
